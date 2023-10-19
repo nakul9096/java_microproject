@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333; /* Change to dark grey color */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for material look */
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height of your logo as needed */
+    margin-right: 10px; /* Add some space between the logo and the app name */
+}
+
+.app-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup-login-btn {
+    background-color: #fff;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-login-btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Slider styles */
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    position: relative;
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.5);
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.slider-nav:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #007BFF;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 1rem;
+    text-align: center;
+}

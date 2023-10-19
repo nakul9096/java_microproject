@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height of your logo as needed */
+    margin-right: 10px; /* Add some space between the logo and the app name */
+}
+
+.app-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.signup-login-btn {
+    background-color: #fff;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-login-btn:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+/* profile1.css */
+
+
+header {
+    background-color: #333; /* Change to dark grey color */
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for material look */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Adjust the height of your logo as needed */
+  margin-right: 10px; /* Add some space between the logo and the app name */
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signup-login-btn {
+  background-color: #fff;
+  color: #007BFF;
+  border: 2px solid #007BFF;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.signup-login-btn:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+/* Additional styles for the profile page */
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-info {
+  margin-bottom: 10px;
+}
+
+.profile-info label {
+  font-weight: bold;
+}
+
+.profile-edit-btn a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.profile-edit-btn a:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Add more styles as needed */
